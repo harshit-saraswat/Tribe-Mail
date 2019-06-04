@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.codezero.mysqldb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logocopy"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logocopy"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainView" />
+        <activity android:name=".SchemeChooser" />
+        <activity android:name=".SchemesListActivity" />
+        <activity android:name=".SchemeDetails" />
+        <activity android:name=".MedicalChooser" />
+        <activity android:name=".SportsAuthority" />
+        <activity android:name=".HRAndLaw" />
+        <activity android:name=".MedicalList" />
+        <activity android:name=".MedDetails" />
+        <activity android:name=".LawsApply" />
+        <activity android:name=".SkillDevelopment" />
+        <activity android:name=".VidPlayer"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Tribe-Mail</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="gender">
+        <item>Select</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="qualifications">
+        <item>Select</item>
+        <item>None</item>
+        <item>Below Tenth</item>
+        <item>Tenth</item>
+        <item>Twelfth</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+    </string-array>
+    <string-array name="occupations">
+        <item>Select</item>
+        <item>Un-Employed</item>
+        <item>Student</item>
+        <item>Farmer</item>
+        <item>Labour</item>
+        <item>Business</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="interests">
+        <item>Select</item>
+        <item>Nil</item>
+        <item>Sports</item>
+        <item>Academics</item>
+        <item>Other Options</item>
+    </string-array>
+    <string-array name="symptoms">
+        <item>Stomach Cramps</item>
+        <item>Nausea</item>
+        <item>Fever</item>
+        <item>Body Pain</item>
+        <item>Yellow color of skin and eyes</item>
+        <item>Dehydration</item>
+        <item>Cough</item>
+        <item>Weakness</item>
+        <item>Sweating</item>
+        <item>Diarrhoea</item>
+        <item>Loss of Appetite</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="sports">
+        <item>Hockey</item>
+        <item>Athletics</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="height">
+        <item>Less than 5 feet</item>
+        <item>5 feet-5 feet 7 inches</item>
+        <item>5 feet 7 inches-6 feet</item>
+        <item>6 feet plus</item>
+    </string-array>
+    <string-array name="bodytype">
+        <item>Average</item>
+        <item>Obese</item>
+        <item>Thin</item>
+        <item>Bulky</item>
+        <item>Lean</item>
+        <item>Athletic</item>
+    </string-array>
+    <string-array name="laws">
+        <item>Panchayat Rights</item>
+        <item>Fundamental Rights</item>
+        <item>Untouchability Opposition</item>
+        <item>Forest and Other Resources</item>
+    </string-array>
+    <string-array name="weight">
+        <item>40kg-50kg</item>
+        <item>50kg-60kg</item>
+        <item>60kg-70kg</item>
+        <item>70kg-80kg</item>
+        <item>80kg-90kg</item>
+        <item>90kg+</item>
+    </string-array>
+    <string-array name="skills">
+        <item>Furniture</item>
+        <item>Clothe</item>
+    </string-array>
+    <string-array name="vid">
+        <item>English</item>
+        <item>Dogri</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

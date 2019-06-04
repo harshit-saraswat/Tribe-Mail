@@ -1,0 +1,52 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codezero.mysqldb.AboutUsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/teamImg"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cz"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:text="The Ministry was set up in 1999 after the bifurcation of Ministry of Social Justice and Empowerment with the objective of providing a more focused approach towards the integrated socio-economic development of the Scheduled Tribes (the most underprivileged section of the Indian Society) in a coordinated and planned manner. Before the formation of the Ministry, tribal affairs were handled by different Ministries at different points in time.\n\n\nThe Ministry of Tribal Affairs is the Nodal Ministry for overall policy planning and coordination of programmes for development of STs. To this end, the Ministry has undertaken activities that follow under the subjects allocated in the Government of India (Allocation of Business) Rules, 1961 and amendment(s) thereafter. The subjects allocated to the Ministry of Tribal Affairs are as follows:\n\n\n It covers all tribal people and all areas with tribal population across the country.\n1. Social security and social insurance to the Scheduled Tribes\n2.Tribal Welfare: Planning, project formulation, research, evaluation, statistics and training\n3.Promotion and development of voluntary efforts on tribal welfare\n4.Development of Scheduled Tribes\n5.Scheduled Areas\n6.Monitoring of ST Welfare Grants, based on the framework and mechanism designed by NITI Ayog\n7.The National Commission for Scheduled Tribes\n\t a) Commission to report on the administration of Scheduled Areas and the welfare of the Scheduled Tribes; and\n \t b) Issue of directions regarding the drawing up and execution of schemes essential for the welfare of the Scheduled Tribes in any State.\n8.Implementation of the Protection of Civil Rights Act, 1955 and the Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989, excluding administration of criminal justice in regard to offences in so far as they relate to Scheduled Tribes.\n\n\n\nThis is the about us page. The above picture here represents the development team logo or the MoTA logo which currently is under development on how to include at run time. Here we will have a text view containing information about the development team or the MoTA and thus would let the users know about the developers and providers for this application."
+                android:textColor="@color/white"
+                android:id="@+id/info"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/developers"
+                android:text="Development Team:\nMentors:Madhu ma'am and Ritika ma'am\nTeam Lead:Prachi Mittal\nRest of the developers:Aekanshu,Shreya,Kamal,\nHarshit and Anisha.\nCollege:Maharaja Agrasen Institute of Technology,HP."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

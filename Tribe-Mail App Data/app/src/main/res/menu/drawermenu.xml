@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/db"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/status"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Our Partners" />
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/contactUs"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/getHelp"
+            android:icon="@drawable/ic_live_help_black_24dp"
+            android:title="Get Help" />
+        <item
+            android:id="@+id/goToVR"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="Go To VR" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+    </group>
+</menu>

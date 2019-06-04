@@ -1,0 +1,38 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codezero.mysqldb.StatusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#4267b2">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/statusImg"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/handshake"
+            android:scaleType="centerCrop"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="18dp"
+            android:text="Powered by the following: \n\n1. Ministry of Tribal Affairs\n2. Indian Health Ministry \n3. Indian Police\n4. Sports Authority of India \n5. Pradhan Mantri Kaushal Vikas Yojna\n6. Startup India\n7. National Scholarship Portal"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4267b2"
+    tools:context="com.example.codezero.mysqldb.ContactUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logocopy"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:ems="15"
+            android:inputType="textPersonName"
+            android:id="@+id/etname"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Contact No."
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:id="@+id/etaadhaar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:id="@+id/etemail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:ems="15"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Query"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:ems="15"
+            android:inputType="text"
+            android:id="@+id/etquery"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonColor"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:id="@+id/sendbutton"
+            android:text="Send"/>
+
+    </LinearLayout>
+
+</FrameLayout>
